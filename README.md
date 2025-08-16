@@ -7,7 +7,7 @@
 
 
 # Project Name
-Long Description about project. This project do that. This project is awesome...
+The project is simply a To do list using fast API.
 ## Team members
 1. [Name 1](https://github.com/TH-Activities/saturday-hack-night-template)
 2. [Name 2](https://github.com/TH-Activities/saturday-hack-night-template)

@@ -42,25 +42,28 @@
       border-radius: 4px;
       border: 1px solid #ccc;
     }
-    #welcome {
-      margin-bottom: 20px;
-    }
+    #welcome { margin-bottom: 20px; }
+    #habitApp { display: none; } /* hidden until Start clicked */
   </style>
 </head>
 <body>
 
+  <!-- Intro Page -->
   <div id="welcome">
     <h1>Welcome to Your Habit Tracker!</h1>
-    <h2>Track up to 10 daily habits easily</h2>
+    <h2>Track your daily habits & stay consistent</h2>
+    <button onclick="startApp()">Start Tracking</button>
   </div>
 
+  <!-- Habit Tracker App -->
   <div id="habitApp">
-    <input type="text" id="habitInput" placeholder="Enter a habit">
+    <h2>Add Your Habits</h2>
+    <input type="text" id="habitTitle" placeholder="Enter habit title">
+    <input type="text" id="habitDesc" placeholder="Enter habit description (optional)">
     <button onclick="addHabit()">Add Habit</button>
-
     <ul id="habitList"></ul>
   </div>
 
-  <script src="script.js"></script>
+  <script src="/static/script.js"></script>
 </body>
 </html>
